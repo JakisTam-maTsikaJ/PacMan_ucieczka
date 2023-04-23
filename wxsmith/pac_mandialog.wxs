@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxDialog" name="pac_manDialog">
+		<title>wxWidgets app</title>
+		<size>760,544</size>
+		<id_arg>0</id_arg>
+		<handler function="OnInit" entry="EVT_INIT_DIALOG" />
+		<handler function="OnKeyDown" entry="EVT_KEY_DOWN" />
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP1" variable="mapa" member="yes">
+			<bitmap>pacman_layout.jpg</bitmap>
+			<size>760,544</size>
+			<bg>wxSYS_COLOUR_BACKGROUND</bg>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP2" variable="StaticBitmap2" member="yes">
+			<pos>80,48</pos>
+			<size>14,144</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP3" variable="StaticBitmap3" member="yes">
+			<pos>80,40</pos>
+			<size>568,16</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP4" variable="StaticBitmap4" member="yes">
+			<pos>637,48</pos>
+			<size>8,136</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP5" variable="StaticBitmap5" member="yes">
+			<pos>538,184</pos>
+			<size>110,8</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP6" variable="StaticBitmap6" member="yes">
+			<pos>537,184</pos>
+			<size>8,48</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP7" variable="StaticBitmap7" member="yes">
+			<pos>537,232</pos>
+			<size>110,9</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP8" variable="StaticBitmap8" member="yes">
+			<pos>88,184</pos>
+			<size>96,8</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP9" variable="StaticBitmap9" member="yes">
+			<pos>184,184</pos>
+			<size>8,48</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP10" variable="StaticBitmap10" member="yes">
+			<pos>80,232</pos>
+			<size>112,9</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP11" variable="StaticBitmap11" member="yes">
+			<pos>80,272</pos>
+			<size>104,8</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP12" variable="StaticBitmap12" member="yes">
+			<pos>184,272</pos>
+			<size>8,48</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP13" variable="StaticBitmap13" member="yes">
+			<pos>88,320</pos>
+			<size>104,8</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP14" variable="StaticBitmap14" member="yes">
+			<pos>80,320</pos>
+			<size>16,168</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP15" variable="StaticBitmap15" member="yes">
+			<pos>88,488</pos>
+			<size>552,8</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP16" variable="StaticBitmap16" member="yes">
+			<pos>640,328</pos>
+			<size>8,160</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP17" variable="StaticBitmap17" member="yes">
+			<pos>544,320</pos>
+			<size>104,8</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP18" variable="StaticBitmap18" member="yes">
+			<pos>537,272</pos>
+			<size>8,56</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP19" variable="StaticBitmap19" member="yes">
+			<pos>538,272</pos>
+			<size>104,8</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP20" variable="StaticBitmap20" member="yes">
+			<pos>133,83</pos>
+			<size>59,26</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP21" variable="StaticBitmap21" member="yes">
+			<pos>234,83</pos>
+			<size>80,26</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP22" variable="StaticBitmap22" member="yes">
+			<pos>416,83</pos>
+			<size>80,26</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP23" variable="StaticBitmap23" member="yes">
+			<pos>537,83</pos>
+			<size>59,26</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP24" variable="StaticBitmap24" member="yes">
+			<pos>133,141</pos>
+			<size>59,11</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP25" variable="StaticBitmap25" member="yes">
+			<pos>297,141</pos>
+			<size>136,10</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP26" variable="StaticBitmap26" member="yes">
+			<pos>356,150</pos>
+			<size>17,47</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP27" variable="StaticBitmap27" member="yes">
+			<pos>537,141</pos>
+			<size>59,11</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP28" variable="StaticBitmap28" member="yes">
+			<pos>234,141</pos>
+			<size>18,100</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP29" variable="StaticBitmap29" member="yes">
+			<pos>248,184</pos>
+			<size>64,13</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP30" variable="StaticBitmap30" member="yes">
+			<pos>478,141</pos>
+			<size>15,98</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP31" variable="StaticBitmap31" member="yes">
+			<pos>417,184</pos>
+			<size>72,13</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP32" variable="StaticBitmap32" member="yes">
+			<pos>234,272</pos>
+			<size>18,55</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP33" variable="StaticBitmap33" member="yes">
+			<pos>478,272</pos>
+			<size>15,56</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP34" variable="StaticBitmap34" member="yes">
+			<pos>296,276</pos>
+			<size>139,8</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP35" variable="StaticBitmap35" member="yes">
+			<pos>424,232</pos>
+			<size>11,48</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP36" variable="StaticBitmap36" member="yes">
+			<pos>392,224</pos>
+			<size>43,8</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP37" variable="StaticBitmap37" member="yes">
+			<pos>296,224</pos>
+			<size>8,52</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP38" variable="StaticBitmap38" member="yes">
+			<pos>296,224</pos>
+			<size>96,8</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP39" variable="StaticBitmap39" member="yes">
+			<pos>88,400</pos>
+			<size>40,16</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP40" variable="StaticBitmap40" member="yes">
+			<pos>600,400</pos>
+			<size>40,16</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP41" variable="StaticBitmap41" member="yes">
+			<pos>352,328</pos>
+			<size>24,42</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP42" variable="StaticBitmap42" member="yes">
+			<pos>296,316</pos>
+			<size>139,12</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP43" variable="StaticBitmap43" member="yes">
+			<pos>355,408</pos>
+			<size>20,50</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP44" variable="StaticBitmap44" member="yes">
+			<pos>296,403</pos>
+			<size>136,13</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP45" variable="StaticBitmap45" member="yes">
+			<pos>416,448</pos>
+			<size>176,10</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP46" variable="StaticBitmap46" member="yes">
+			<pos>136,448</pos>
+			<size>176,10</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP47" variable="StaticBitmap47" member="yes">
+			<pos>234,403</pos>
+			<size>20,45</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP48" variable="StaticBitmap48" member="yes">
+			<pos>476,403</pos>
+			<size>20,45</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP49" variable="StaticBitmap49" member="yes">
+			<pos>176,368</pos>
+			<size>16,48</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP50" variable="StaticBitmap50" member="yes">
+			<pos>136,360</pos>
+			<size>56,12</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP51" variable="StaticBitmap51" member="yes">
+			<pos>537,368</pos>
+			<size>18,48</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP52" variable="StaticBitmap52" member="yes">
+			<pos>537,360</pos>
+			<size>56,12</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP53" variable="StaticBitmap53" member="yes">
+			<pos>416,360</pos>
+			<size>80,10</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP54" variable="StaticBitmap54" member="yes">
+			<pos>234,360</pos>
+			<size>80,10</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP55" variable="StaticBitmap1" member="yes">
+			<pos>355,48</pos>
+			<size>19,61</size>
+		</object>
+		<object class="wxAnimationCtrl" name="ID_ANIMATIONCTRL1" variable="AnimationCtrl1" member="yes">
+			<animation>pacman.gif</animation>
+			<play>1</play>
+			<pos>104,64</pos>
+			<size>16,16</size>
+			<bg>wxSYS_COLOUR_BACKGROUND</bg>
+			<maxsize>30,30d</maxsize>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP56" variable="StaticBitmap55" member="yes">
+			<pos>8,24</pos>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP57" variable="StaticBitmap56" member="yes">
+			<pos>32,24</pos>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP58" variable="StaticBitmap57" member="yes">
+			<pos>56,232</pos>
+			<size>24,48</size>
+		</object>
+		<object class="wxStaticBitmap" name="ID_STATICBITMAP59" variable="StaticBitmap58" member="yes">
+			<pos>640,232</pos>
+			<size>24,48</size>
+		</object>
+		<object class="wxAnimationCtrl" name="ID_ANIMATIONCTRL2" variable="AnimationCtrl2" member="yes">
+			<animation>duch.gif</animation>
+			<play>1</play>
+			<pos>576,464</pos>
+			<size>16,16</size>
+		</object>
+		<object class="wxAnimationCtrl" name="ID_ANIMATIONCTRL3" variable="AnimationCtrl3" member="yes">
+			<animation>duch.gif</animation>
+			<play>1</play>
+			<pos>568,424</pos>
+			<size>16,16</size>
+		</object>
+		<object class="wxAnimationCtrl" name="ID_ANIMATIONCTRL4" variable="AnimationCtrl4" member="yes">
+			<animation>duch.gif</animation>
+			<play>1</play>
+			<pos>608,464</pos>
+			<size>16,16</size>
+		</object>
+		<object class="wxAnimationCtrl" name="ID_ANIMATIONCTRL5" variable="AnimationCtrl5" member="yes">
+			<animation>duch.gif</animation>
+			<play>1</play>
+			<pos>608,432</pos>
+			<size>16,16</size>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+			<label>Label</label>
+			<pos>680,160</pos>
+			<size>32,21</size>
+			<bg>#C0C0C0</bg>
+			<minsize>40,-1</minsize>
+		</object>
+		<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+			<label>Label</label>
+			<pos>632,200</pos>
+			<size>84,21</size>
+		</object>
+		<object class="wxTimer" name="ID_TIMER1" variable="Timer1" member="yes">
+			<interval>30</interval>
+			<handler function="OnTimer1Trigger" entry="EVT_TIMER" />
+		</object>
+		<object class="wxTimer" name="ID_TIMER2" variable="Timer2" member="yes">
+			<interval>1</interval>
+			<handler function="OnTimer2Trigger" entry="EVT_TIMER" />
+		</object>
+	</object>
+</wxsmith>
